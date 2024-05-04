@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="container-fluid shadow py-4 px-md-5 position-fixed top-0 bg-white z-3">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="position-relative">
+                <img src="img/yellowkitchen.svg" alt="">
+                <div class="logoback-color opacity-70 z-n1 position-absolute bottom-0 start-0"></div>
+            </div>
+            <div class="d-flex gap-4 fs-5">
+                <div class="d-none d-md-block">
+                    <i class="fa-regular fa-user"></i>
+                    Log in
+                </div>
+                <div class="d-none d-md-block">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    0
+                </div>
+                <div>
+                    <i id="btn" class="fa-solid fa-bars"></i>
+                    <ul id="menu" class="position-fixed position-slider shadow py-5 d-flex z-3">
+                        <li class="d-flex gap-3 align-items-center">
+                            <i class="fa-solid fa-phone fs-5"></i>
+                            <div>
+                                0800 111 126
+                                <span class="d-block" style="font-size: 14px;">8:00 - 22:00</span>
+                            </div>
+                        </li>
+                        <li>
+                            Delivery info
+                        </li>
+                        <li>
+                            About us
+                        </li>
+                        <li>
+                            Restaurants
+                        </li>
+                        <li>
+                            Specialities
+                        </li>
+                        <li class="text-end pe-3 ">
+                            English
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="container-fluid position-relative mt-5 ">
+        <div class="container pt-5 ">
+            <div class="row mt-4">
+                <div class="col-lg-6 mb-5 ">
+                    <div class="d-flex flex-column align-items-center gap-5">
+                        <h2 class="display-3 ">Your Food court <br> at home</h2>
+                        <div class="d-flex gap-5 align-self-lg-start ps-lg-5">
+                            <button
+                                class="px-4 ms-lg-4 py-2 border border-2 border-warning border-opacity-50 bg-color bg-white">
+                                Delivery <br><span style="font-size: 12px;">Order in</span>
+                            </button>
+                            <button class="p-3 py-2 border border-2 border-warning border-opacity-50 bg-color bg-white">
+                                Takeout <br><span style="font-size: 12px;">Grab and go</span>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="img/Photo.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div
+            class=" row pt-3 py-3 ps-lg-0 mt-3 mt-lg-0 shadow rounded position-lg-absolute position-static bottom-0 start-0 z-n1 bg-color bg-light-subtle col-lg-9 ">
+            <div class="col-12 col-md-4 col-lg d-flex  gap-3 mt-3 mt-lg-0 ps-lg-5">
+                <img class="h-75" src="img/010   Meal Time.png" alt="">
+                delivery in all paris <br> in less than 30 minutes
+            </div>
+            <div class="col-12 col-md-4  col-lg d-flex mt-3 mt-lg-0 gap-3 ">
+                <img class="h-75" src="img/Vector.png" alt="">
+                Free delivery <br> from 29 euros
+            </div>
+            <div class="col-12 col-md-4 col-lg d-flex mt-3 mt-lg-0 gap-3 ">
+                <img class="h-75" src="img/Group.png" alt="">
+                Only fresh <br> and French products
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid pb-3 ">
+        <div class="container  py-5 px-0">
+            <div class="d-flex pb-5">
+                <h2 class="flex-grow-1 fs-2 text fw-normal">Restaurants</h2>
+                <button class="px-5 py-3 border b-none  text-secondary-emphasis rounded"
+                    style="background-color: #F2F4FA;">show all</button>
+            </div>
+            <div class="row m-0 mx-md-1 ">
+                <div class="col-12 mb-4 col-md-5 col-lg shadow rounded p-0  mx-md-4 mx-lg-2 overflow-hidden">
+                    <img class="w-100" src="img/Photo-base1.png" alt="">
+                    <div class="w-100 d-flex align-items-center justify-content-center " style="height: 112px " ;>
+                        <img src="img/union1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-12 mb-4 col-md-5 col-lg shadow rounded p-0  mx-md-4 mx-lg-2 overflow-hidden">
+                    <img class="w-100" src="img/Photo-base2.png" alt="">
+                    <div class="w-100 d-flex align-items-center justify-content-center " style="height: 112px " ;>
+                        <img src="img/Union2.png" alt="">
+                    </div>
+                </div>
+                <div class="col-12 mb-4 col-md-5 col-lg shadow rounded p-0  mx-md-4 mx-lg-2 overflow-hidden">
+                    <img class="w-100" src="img/Photo-base3.png" alt="">
+                    <div class="w-100 d-flex align-items-center justify-content-center " style="height: 112px " ;>
+                        <img src="img/Union3.png" alt="">
+                    </div>
+                </div>
+                <div class="col-12 mb-4 col-md-5 col-lg shadow rounded p-0  mx-md-4 mx-lg-2 overflow-hidden">
+                    <img class="w-100" src="img/Photo-base4.png" alt="">
+                    <div class="w-100 d-flex align-items-center justify-content-center " style="height: 112px " ;>
+                        <img src="img/Union4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid bg-color-containe ">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12 col-lg-6  " style="color: #3F4255;">
+                    <h2 class="fs-1 mb-5 font-monospace">Your nearest restaurants</h2>
+                    <p class="fs-5 lh-lg">Each kitchen works with its own delivery area <br> to deliver food to you as
+                        soon as possible</p>
+                </div>
+                <div class="col-12 col-lg-6 mt-5 mt-lg-0 d-flex justify-content-lg-center  align-items-center">
+                    <input type="text" placeholder="Enter delivery address" class="px-4 py-2 fs-5 pe-1 pe-lg-5 me-2">
+                    <button class="px-2 py-2 rounded bg-warning bg-gradient border-none border opacity-75">send</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="container py-5">
+            <div class="d-flex pb-5">
+                <h2 class="flex-grow-1 fs-2 text fw-normal">Specialities</h2>
+                <button class="px-5 py-3 border b-none  text-secondary-emphasis rounded"
+                    style="background-color: #F2F4FA;">show all</button>
+            </div>
+            <div class="row">
+                <div class="col-3 col-md-3 col-lg text-center icon-col-div shadow mx-2 mx-md-5 mx-lg-3 ms-3 ms-md-2 ms-lg-2 rounded px-3 my-2 py-3">
+                    <div class="height-img-div">
+                        <img src="img/icon1.png" alt="">
+                    </div>
+                    <span class="d-block pt-2">Bagel</span>
+                </div>
+                <div
+                    class="col-3 col-md-3 col-lg text-center icon-col-div shadow mx-2 mx-md-5 mx-lg-3 ms-3 ms-md-2 ms-lg-2 rounded px-3 my-2 py-3">
+                    <div class="height-img-div">
+                        <img src="img/icon2.png" alt="">
+                    </div>
+                    <span class="d-block pt-2">Burger</span>
+                </div>
+                <div
+                    class="col-3 col-md-3 col-lg text-center icon-col-div shadow mx-2 mx-md-5 mx-lg-3 ms-3 ms-md-2 ms-lg-2 rounded px-3 my-2 py-3">
+                    <div class="height-img-div">
+                        <img src="img/icon3.png" alt="">
+                    </div>
+                    <span class="d-block pt-2">Chicken</span>
+                </div>
+                <div
+                    class="col-3 col-md-3 col-lg text-center icon-col-div shadow mx-2 mx-md-5 mx-lg-3 ms-3 ms-md-2 ms-lg-2 rounded px-3 my-2 py-3">
+                    <div class="height-img-div">
+                        <img src="img/icon4.png" alt="">
+                    </div>
+                    <span class="d-block pt-2">Fish</span>
+                </div>
+                <div
+                    class="col-3 col-md-3 col-lg text-center icon-col-div shadow mx-2 mx-md-5 mx-lg-3 ms-3 ms-md-2 ms-lg-2 rounded px-3 my-2 py-3">
+                    <div class="height-img-div">
+                        <img src="img/icon5.png" alt="">
+                    </div>
+                    <span class="d-block pt-2">Fish’Chips</span>
+                </div>
+                <div
+                    class="col-3 col-md-3 col-lg text-center icon-col-div shadow mx-2 mx-md-5 mx-lg-3 ms-3 ms-md-2 ms-lg-2 rounded px-3 my-2 py-3">
+                    <div class="height-img-div">
+                        <img src="img/icon6.png" alt="">
+                    </div>
+                    <span class="d-block pt-2">Salads</span>
+                </div>
+                <div
+                    class="col-3 col-md-3 col-lg text-center icon-col-div shadow mx-2 mx-md-5 mx-lg-3 ms-3 ms-md-2 ms-lg-2 rounded px-3 my-2 py-3">
+                    <div class="height-img-div">
+                        <img src="img/icon7.png" alt="">
+                    </div>
+                    <span class="d-block pt-2">Pizza</span>
+                </div>
+                <div
+                    class="col-3 col-md-3 col-lg text-center icon-col-div shadow mx-2 mx-md-5 mx-lg-3 ms-3 ms-md-2 ms-lg-2 rounded px-3 my-2 py-3">
+                    <div class="height-img-div">
+                        <img src="img/icon8.png" alt="">
+                    </div>
+                    <span class="d-block pt-2">Pasta</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid p-0">
+        <div class="img-lemon ">
+            <img class="w-100" src="img/USP.png" alt="">
+        </div>
+    </section>
+    <section class="container-fluid px-lg-3 py-2">
+        <iframe class="w-100 "
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3570.553345645746!2d75.5153911!3d26.502322500000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1714807103632!5m2!1sen!2sin"
+            style="border:0; height: 450px;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="container-fluid pb-3 ">
+        <div class="container  py-5 px-0">
+            <div class=" pb-5">
+                <h1>
+                    #YellowKitchens<span class="fw-normal"> in instagram</span>
+                </h1>
+            </div>
+            <div class="row m-0 mx-md-1 ">
+                <div class="col-12 mb-4 col-md-5 col-lg shadow rounded p-0  mx-md-4 mx-lg-2 overflow-hidden foot-img-height">
+                    <img class="w-100 h-100 " src="img/foot1.jpeg" alt="">
+                </div>
+                <div class="col-12 mb-4 col-md-5 col-lg shadow rounded p-0  mx-md-4 mx-lg-2 overflow-hidden foot-img-height">
+                    <img class="w-100 h-100 " src="img/foot2.jpeg" alt="">
+                </div>
+                <div class="col-12 mb-4 col-md-5 col-lg shadow rounded p-0  mx-md-4 mx-lg-2 overflow-hidden foot-img-height">
+                    <img class="w-100 h-100 " src="img/foot3.jpeg" alt="">
+                </div>
+                <div class="col-12 mb-4 col-md-5 col-lg shadow rounded p-0  mx-md-4 mx-lg-2 overflow-hidden foot-img-height">
+                    <img class="w-100 h-100 " style="max-height: 250px;" src="img/foot4.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="container-fluid footer-bg py-5  p-lg-5 text-white">
+        <div class="row p-lg-4 ps-1 p-md-2 ">
+            <div class="col-6  col-lg-5">
+                <div class="position-relative z-2 mb-5">
+                    <h3>yellow kitchen</h3>
+                    <div class="textoverly position-absolute bottom-0 start-0 z-n1 "></div>
+                </div>
+                <div class="border border-1 border-secondary-subtle mb-5 w-75"></div>
+                <div class="icon-apps">
+                    <img class="pe-2 mb-2" src="img/1.png" alt="">
+                    <img src="img/2.png" alt="">
+                </div>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+                <h3>About us</h3>
+                <ul class="ps-0 lh-lg ul-color">
+                    <li>Concept</li>
+                    <li>Franchise</li>
+                    <li>Business</li>
+                    <li>Restaurant signup</li>
+                    <li>For Investors</li>
+                </ul>
+            </div>
+            <div class="col-5 col-md-3 col-lg-2 my-5 my-md-0">
+                <h3>Get help</h3>
+                <ul class="ps-0 lh-lg ul-color ">
+                    <li>Read FAQs</li>
+                    <li>Restaurants</li>
+                    <li>Specialities</li>
+                    <li>Sign up to deliver </li>
+                    <li>
+                        English
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-7 col-lg-3 my-5 my-lg-0">
+                <h3>Contact us</h3>
+                <ul class="ps-0 lh-lg ul-color">
+                    <li>Yellow kitchen Paris 11</li>
+                    <li>69 avenue de la Republique 75011 Paris</li>
+                    <li>0800 111 126</li>
+                    <li>contact@yellowkitchens.com</li>
+                </ul>
+            </div>
+            <div class="row mt-lg-5">
+                <div class="col-4 col-md-5 d-flex gap-2 gap-md-4">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div class="col-8 col-md-7 d-flex gap-3 gap-lg-5 justify-content-end text-end">
+                    <p>Privacy Policy</p>
+                    <p>Terms</p>
+                    <p>© 2020 Yellow kitchen</p>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+
+    <script src="js/function.js"></script>
+
+</body>
+
+</html>
